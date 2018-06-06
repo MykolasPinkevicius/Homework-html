@@ -1,0 +1,14 @@
+1. Apsirašyti "meta" informaciją
+
+    1.1 Prisidėti responsive žymą
+    1.2 Prisidėti description žymą
+    1.3 Prisidėti author žymą ir įsirašyti savo vardą, pavardę
+    1.4 Nepamirški apsirašyti <title>
+
+2. Žiūrėti nuotrauką homework.png
+    2.1 Įsidėti <iframe> į http://delfi.lt
+    2.2 Įsidėti "google maps" žemėlapį, adresas "Vilnius, Baltic talents"
+    2.3 Įsidėti atsitiktinį filmuką iš "youtube"
+    2.4 Įsidėti lokalų filmuką, filmuką rasite "video" papkėje, įdėkite abu formatus dėl naršyklių palaikomumo
+
+3. Pasitikrinti kodą su w3c validatoriumi
