@@ -1,0 +1,43 @@
+body{
+    width:auto;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+}
+article > h3 {
+    font-family: sans-serif;
+    color: lightgrey;
+}
+h4 + p{
+    font-size: 10px;
+    background-color: lightgrey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img{
+    float: left;
+    padding: auto;
+    margin: auto;
+    width: 200px;
+}
+a:hover{
+    background-color: red;
+}
+a:active{
+font-weight: bold;
+}
+
+article:nth-child(even){
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+article > a{
+    border-style: solid;
+    border-width: 1px;
+    padding: auto;
+}
+article{
+    margin: auto;
+}
