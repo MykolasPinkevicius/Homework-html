@@ -1,0 +1,123 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+header{
+    padding: 20px 10px 20px 30px;
+    background-color: lightgrey;
+    height: 100px;
+}
+ body{
+     margin: 0px;
+     font-family: 'Open Sans', sans-serif;
+ }
+ footer{
+     display: block;
+     text-align: center;
+     padding: 10px 0px 10px 0px;
+     background-color: black;
+     color: white;
+ }
+ section{
+     float: left;
+     width: 25%;
+     /* height: auto;
+     background-color: blue; */
+     /* padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 30px; */
+ }
+ article{
+     float: left;
+     width: 50%;
+     /* height: auto;
+     background-color: green; */
+     /* padding: 30px; */
+ }
+ .service{
+     background-color: blue;
+     padding: 20px 30px 20px 30px;
+ }
+ .article{
+     background-color: green;
+     padding: 20px 30px 20px 30px;
+ }
+
+ /* .article1{
+     box-sizing: border-box;
+     display: inline;
+     float: left;
+     width: 50%;
+     padding-bottom: 30px;
+ }
+ .article2{
+     box-sizing: border-box;
+     display: inline;
+     float: left;
+     width: 50%;
+     padding-bottom: 30px;
+ } */
+ .inlineleft{
+     float: left;
+     display: inline;
+ }
+ .inlineright{
+     float: right;
+     display:inline;
+     padding: 10px;
+ }
+ section:nth-child(3){
+     color: white;
+ }
+ section{
+     float: left;
+     width: 25%;
+ }
+ article{
+     float: left;
+     width: 50%;
+ }
+ /* .section1{
+     box-sizing: border-box;
+     display: inline;
+     float: left;
+     width: 25%;
+ }
+ .section2{
+     box-sizing: border-box;
+     display: inline;
+     float: left;
+     width: 25%;
+ }
+ .section3{
+     box-sizing: border-box;
+     display: inline;
+     float: left;
+     width: 25%;
+     color:white;
+ }
+ .section4{
+     box-sizing: border-box;
+     display: inline;
+     float: left;
+     width: 25%;
+ } */
+ a{
+     text-decoration: none;
+ }
+ a:hover{
+     color:red;
+ }
+ a:active{
+     font-weight: bold;
+ }
+ .navigationbutt{
+     text-decoration: none;
+     color: black;
+ }
+
+/* GLOBAL STYLES */
+
+
+/* END GLOBAL STYLES */
