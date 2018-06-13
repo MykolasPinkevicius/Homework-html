@@ -13,11 +13,12 @@ header{
      font-family: 'Open Sans', sans-serif;
  }
  footer{
-     display: block;
+     /* display: block; */
      text-align: center;
-     padding: 10px 0px 10px 0px;
+     padding: 25px 0px 10px 0px;
      background-color: black;
      color: white;
+     height: 50px
  }
  section{
      float: left;
