@@ -1,0 +1,8 @@
+body{
+    margin: 0
+}
+.picturehome{
+    border-radius: 50%;
+    height: 10vw;
+    width: 10vw;
+}

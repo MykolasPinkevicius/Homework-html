@@ -60,13 +60,13 @@ header{
     margin-right: 1.5vw;
     margin-bottom: 1.5vw;
 }
-.headeris{
+/* .headeris{
     display: flex;
     justify-content: center;
     box-sizing: border-box;
     width: 100vw;
     height: 1em;
-}
+} */
 /* .kairysblokas{
     display: flex;
     flex-direction: column;
