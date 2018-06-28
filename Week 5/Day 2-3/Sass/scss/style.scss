@@ -1,0 +1,108 @@
+@import '_navigation';
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.rectangleboxblack{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.rectangleblack{
+    background-color: black;
+    width: 20px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.rectanglewhite{
+    background-color: white;
+    width: 20px;
+    padding: 10px;
+}
+.upperbody{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+.upperbodyfirst{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.upperbodysecond{
+    background-color: grey;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 5px;
+}
+.upperbodythird{
+    background-color: grey;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+}
+@import '_footer';
+@import'_button';
+
+.button{
+    padding: 10px;
+}
+.upperbodybutton{
+    display: flex;
+    flex-direction: row;
+}
+.buttonlower{
+    display: flex;
+    width: fit-content;
+    padding: 10px;
+    background-color: grey;
+    color: black;
+    border-style: none;
+}
+.buttonlower:nth-child(2){
+    background-color: red;
+}
+.buttonblack{
+    display: flex;
+    width: fit-content;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+.lowerbody{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.lowerbodyimg{
+    max-width: 30vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.smallimg{
+    height: 100px;
+}
+.footerp{
+    display: flex;
+}
+.quadbox{
+    display: flex;
+}
+.quadfooterwhite{
+    width: 10px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    }

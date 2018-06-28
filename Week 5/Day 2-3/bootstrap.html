@@ -13,7 +13,7 @@
     <title>Page layout</title>
     </head>
     <body>
-        <nav class="d-flex justify-content-around align-items-center border-bottom border-dark">
+        <nav class="d-flex justify-content-around align-items-center border-bottom border-dark p-3">
             <img src="logo.png" class="rounded d-flex" alt="logo of company">
             <ul class="nav d-flex justify-content-end">
                 <li class="nav-item">
@@ -36,25 +36,39 @@
                 </li>
             </ul>
         </nav>
-        <main class="d-flex flex-column align-items-center w-100">
-            <form>
+        <main class="d-flex flex-column align-items-center w-100 p-3">
+            <form class="shadow-lg p-3 bg-white rounded">
+                <h2>Login</h2>
               <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <label for="exampleInputEmail1">Not signed up? <a href="#" class="text-success">Sign up here</a></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
+                <!-- <label for="exampleInputPassword1">Password</label> -->
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
               </div>
-              <div class="form-group form-check">
+              <!-- <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+                <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+              <!-- </div> -->
+              <button type="submit" class="btn btn-primary bg-success">Login</button>
+              |
+               <a href="#"class="text-success">Sign up here</a>
             </form>
-
         </main>
+        <div class="d-flex flex-column p-5 mb-2 bg-success text-white">
+            <div class="d-flex">
+                <h2 classs="text-white d-flex">Awesome</h2><h2 class="text-dark d-flex pl-1">Features</h2>
+            </div>
+            <div class="d-flex">
+                <p class="text-white d-flex pr-1">99.9% Uptime </p><p class="text-dark d-flex pr-1">/</p>
+                <p class="text-white d-flex pr-1">Free Upgrades </p><p class="text-dark d-flex pr-1">/</p>
+                <p class="text-white d-flex pr-1">Fully Responsive </p><p class="text-dark d-flex pr-1">/</p>
+                <p class="text-white d-flex pr-1">Bug Free </p>
+            </div>
+        </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
