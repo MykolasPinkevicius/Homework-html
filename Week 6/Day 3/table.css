@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    font-family: 'Monoton', cursive;
+}
+.maincontainer{
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+}
+table{
+    border-style:double;
+    border-color: lightgrey:
+}
