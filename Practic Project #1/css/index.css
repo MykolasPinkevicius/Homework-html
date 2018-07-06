@@ -1,4 +1,5 @@
 body{
+    font-size: 13px;
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
     display: flex;
@@ -12,14 +13,23 @@ body{
     justify-content: flex-end;
 }
 .picturehomeround{
-    height: 20vw;
-    width: 20vw;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 15vw;
+    width: 15vw;
 }
 .picturehome{
     /* padding-top: 100px;
     padding-bottom: 20px; */
     border-radius: 50%;
     height: 15vw;
+    width: 15vw;
+}
+.picturehome2{
+    /* padding-top: 100px;
+    padding-bottom: 20px; */
+    border-radius: 50%;
+    height: 10vw;
     width: 15vw;
 }
 footer{
@@ -104,7 +114,7 @@ main{
 }
 .blogposts1 > h3 {
     font-size: 1rem;
-    margin: 0;
+    margin: 0 auto;
 }
 .blogposts1{
     padding-top: 2rem;
@@ -146,7 +156,7 @@ nav > ul > li > a{
 }
 nav > ul{
     width: 15rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .picturedivrow{
     display: flex;
@@ -155,4 +165,45 @@ nav > ul{
 }
 .boxabout{
     display: flex;
+    text-align: center;
+    margin: 40px auto;
+    flex-direction: column;
+    width: 50%;
+}
+.textabout{
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    text-align: left;
+}
+.textabout > ul {
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+}
+.linksabout > ul{
+    justify-content: space-evenly;
+}
+.linksabout{
+    position: relative;
+    right: -28vw;
+    bottom: 17vw;
+}
+.linksabout > ul > li > a{
+    text-decoration: none;
+}
+.differentcolor{
+    background-color: lightgrey;
+    display: initial;
+    color: black!important;
+}
+.mainbodyformatingproject{
+    width: 90%;
+}
+.differentcolortext{
+    color: black!important;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 64%;
+    text-align: left;
 }
