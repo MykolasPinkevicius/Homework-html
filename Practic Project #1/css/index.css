@@ -203,7 +203,85 @@ nav > ul{
 .differentcolortext{
     color: black!important;
     margin: 0 auto;
+    padding-bottom: 50px;
     padding-top: 50px;
     width: 64%;
     text-align: left;
+}
+.projectwhatsinsidetext{
+    padding-top: 25px;
+    padding-bottom: 75px;
+    width: 64%;
+    margin: 0 auto;
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: lightgrey;
+}
+.projectwhatsinside{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 64%;
+    margin: 0 auto;
+    text-align: left;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: lightgrey;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: lightgrey;
+}
+.projectwhatsinside > ul{
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    text-align: left;
+    width: 64%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: lightgrey;
+}
+.socialimg{
+    padding-right: 5px;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+}
+.socialp{
+    margin: 0;
+    font-size: 0.75rem;
+}
+.socialp2{
+    margin: 0;
+    font-size: 0.75rem;
+    color: lightgrey;
+}
+.socialpinsides{
+    margin-right: 5px;
+}
+.twitter{
+    margin-top: 1vw;
+    margin-right: 1vw;
+    margin-left: 2vw;
+    height: 3vw;
+    border-style: none;
+    color: white;
+    background-color: lightblue;
+    border-radius: 10%;
+}
+.facebook{
+    margin-top: 1vw;
+    height: 3vw;
+    border-style: none;
+    color: white;
+    background-color: blue;
+    border-radius: 10%;
 }
