@@ -11,14 +11,24 @@
         <div class="maincontainer">
             <h1>It's the table of data</h1>
             <table>
+                <thead>
                 <tr>
-                    <td>Date and time</td>
-                    <td>Car plate</td>
-                    <td>Distance in meters</td>
-                    <td>Distance driven in seconds</td>
-                    <td>Speed in Kilometers per hour</td>
+                    <th scope="col">Date and time</td>
+                    <th scope="col">Car plate</td>
+                    <th scope="col">Distance in meters</td>
+                    <th scope="col">Distance driven in seconds</td>
+                    <!-- <td>Speed in Kilometers per hour</td> -->
                 </tr>
+                </thead>
+                <tbody id="tbody">
                 <tr>
+                    <td id="date"></td>
+                    <td id="car-number"></td>
+                    <td id="distance"></td>
+                    <td id="time"></td>
+                </tr>
+                </tbody>
+                <!-- <tr>
                     <td id="date"></td>
                     <td id="plate"></td>
                     <td id="distance"></td>
@@ -38,8 +48,19 @@
                     <td id="distance3"></td>
                     <td id="time3"></td>
                     <td id="speed3"></td>
-                </tr>
+                </tr> -->
             </table>
+            <form id="car-details-form">
+                <label for="">Date</label>
+                <input id="input-date" type="text" placeholder="2000-00-00 10:00" maxlength="17">
+                <label for="">Car number</label>
+                <input id="input-car-number" type="text" placeholder="XXX999" maxlength="6">
+                <label for="">Distance</label>
+                <input id="input-distance" type="text" placeholder="XXXXX" maxlength="10">
+                <label for="">Time</label>
+                <input id='input-time' type="text" placeholder="xxxx" maxlenth="10">
+                <button type="submit">Add new car</button>
+            </form>
             <script src="table.js"></script>
         </div>
     </body>
