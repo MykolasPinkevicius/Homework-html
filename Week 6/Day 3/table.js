@@ -53,8 +53,6 @@ function addRow(event){
 
 }
 
-
-
     // distance = data[0][2]
     // time = data[0][3]
     // speed = distance / time * 3.6
