@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cOpen+Sans+Condensed:300" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
         <meta charset="utf-8">
@@ -90,7 +92,7 @@
                 </div>
                 <div class="moneybackagencycontainer">
                     <div class="agencycontainer">
-                        <img class="agencyicon"src="img/agency.png" alt="agency icon">
+                        <img class="agencyicon" src="img/agency.png" alt="agency icon">
                         <div class="agencyicontextheadercontainer">
                             <p class="agencyheader">Agency & Freelancer Partnership</p>
                             <p class="agencytext">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.</p>
@@ -130,19 +132,200 @@
                     </div>
                 </div>
                 <div class="ourclientsayscontainer">
-                    <div class="">
+                    <div class="ourclientsayspcontainer">
                         <p class="ourclientsaysp">What Our Client Says</p>
                     </div>
-                    <div class="ourclientsaysfirstclientcontainer">
-
+                    <div class="ourclientsphotoscontainer">
+                        <div class="ourclientsaysfirstclientcontainer">
+                            <div class="maskforphotos">
+                                <img class="photoall" src="img/johndoe.png" alt="johndoeportret">
+                            </div>
+                            <img src="img/formfortext.png" alt="form to fit text">
+                            <p class="ourclientsaystext">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                            <div class="johndoetextunder">
+                                <p class="johndoetextunderfirst">John Doe</p>
+                                <p class="johndoetextundersecond">Creative Director, DigitialBlow</p>
+                            </div>
+                        </div>
+                        <div class="ourclientsayssecondclientcontainer">
+                            <div class="maskforphotos">
+                                <img class="photoall" src="img/mikebhand.png" alt="johndoeportret">
+                            </div>
+                            <img src="img/formfortext.png" alt="form to fit text">
+                            <p class="ourclientsaystext">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                            <div class="johndoetextunder">
+                                <p class="johndoetextunderfirst">Mike Bhand</p>
+                                <p class="johndoetextundersecond">CEO, Graphicslab</p>
+                            </div>
+                        </div>
+                        <div class="ourclientsaysthirdclientcontainer">
+                            <div class="maskforphotos">
+                                <img class="photoall" src="img/angelinadoe.png" alt="johndoeportret">
+                            </div>
+                            <img src="img/formfortext.png" alt="form to fit text">
+                            <p class="ourclientsaystext">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                            <div class="johndoetextunder">
+                                <p class="johndoetextunderfirst">Angelina Doe</p>
+                                <p class="johndoetextundersecond">Marketing Manager, Graphicslab</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="ourclientsayssecondclientcontainer">
-
+                </div>
+                <div class="greatteamcontainer">
+                    <div class="greatteamtext">
+                        <p class="greatteamtextp">Great Team</p>
                     </div>
-                    <div class="ourclientsaysthirdclientcontainer">
+                    <div class="greatteamphotos">
+                        <div class="greatteamphotosleftpointercontainer">&#62;</div>
+                        <div class="greatteamphotosfirstcontainer">
+                            <img class="greatteamphotosfirst" src="img/angelinadoe.png" alt="first photo">
+                            <p class="greatteamphotosheaderall">Angelina Doe</p>
+                            <p class="greatteamphotospall">UI UX Designer</p>
+                        </div>
+                        <div class="greatteamphotossecondcontainer">
+                            <img class="greatteamphotossecond" src="img/killeybyles.png" alt="second photo">
+                            <p class="greatteamphotosheaderall">Killey Byles</p>
+                            <p class="greatteamphotospall">UI UX Designer</p>
+                        </div>
+                        <div class="greatteamphotosthirdcontainer">
+                            <img class="greatteamphotosthird" src="img/rayanmcgil.png" alt="third photo">
+                            <p class="greatteamphotosheaderall">Ryan McGil</p>
+                            <p class="greatteamphotospall">UI UX Designer</p>
+                        </div>
+                        <div class="greatteamphotosrightpointercontainer">&#60;</div>
+                    </div>
+                    <!-- I try to put carousel from boostrap 4.1 into project -->
+<!--
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-10" src="img/rayanmcgil.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-10" src="img/killeybyles.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-10" src="img/angelinadoe.png" alt="Third slide">
+                            </div>
+                        </div>
+                    </div> -->
 
+                    <!-- Bootrap carousell ends here -->
+                    <img class="greatteampath" src="img/greatteampath.png" alt="great team path">
+                </div>
+                <div class="latestblog">
+                    <div class="latestblogcontainer">
+                        <div class="latestblogheader">
+                            <p class="latestblogheader">Latest Blog</p>
+                        </div>
+                            <div class="latestblogtextdirection">
+                                <div class="latestblogtextcontainer">
+                                    <p class="latestblogtextfirst">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                                    <div class="latestblogtextsecond">
+                                    <p>08 Jan, 2018</p><p>&#10050; 300 &#10061; 30 </p>
+                                    </div>
+
+                                    <p class="latestblogtextthird">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo…</p>
+                                    <p class="latestblogtextfourth">Read More &#62;</p>
+                                </div>
+                                <div class="latestblogtextcontainer">
+                                    <p class="latestblogtextfirst">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                                    <div class="latestblogtextsecond">
+                                    <p>08 Jan, 2018</p><p>&#10050; 300 &#10061; 30 </p>
+                                    </div>
+
+                                    <p class="latestblogtextthird">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo…</p>
+                                    <p class="latestblogtextfourth">Read More &#62;</p>
+                                </div>
+                                <div class="latestblogtextcontainer">
+                                    <p class="latestblogtextfirst">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                                    <div class="latestblogtextsecond">
+                                    <p>08 Jan, 2018</p><p>&#10050; 300 &#10061; 30 </p>
+                                    </div>
+
+                                    <p class="latestblogtextthird">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo…</p>
+                                    <p class="latestblogtextfourth">Read More &#62;</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="newslettercontainer">
+                    <div class="newslettertextandsearch">
+                        <p class="newsletterp">Signup For Mothly Newsletter</p>
+
+                        <div class="newslettersearch">
+                            <i>&#9993;</i><p class="newslettersearchtext"> Enter Your Email Address</p>
+                            <div class="newsletterbardivcover">
+                                <p class="newslettersearchbarp">Subscribe</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </main>
+            <footer>
+                <div class="resourcescontainer">
+                    <div class="resourcesinformationnavigationresorcesitemap">
+                        <div class="resourcesinformation">
+                            <p>Information</p>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Additional Info</li>
+                                <li>Privacy Policy</li>
+                                <li>Terms & Conditions</li>
+                                <li>FAQ'S</li>
+                            </ul>
+                        </div>
+                        <div class="resourcesinformation">
+                            <p>Navigation</p>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Additional Info</li>
+                                <li>Privacy Policy</li>
+                                <li>Terms & Conditions</li>
+                                <li>FAQ'S</li>
+                            </ul>
+                        </div>
+                        <div class="resourcesinformation">
+                            <p>Resource</p>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Additional Info</li>
+                                <li>Privacy Policy</li>
+                                <li>Terms & Conditions</li>
+                                <li>FAQ'S</li>
+                            </ul>
+                        </div>
+                        <div class="resourcesinformation">
+                            <p>Site Map</p>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Additional Info</li>
+                                <li>Privacy Policy</li>
+                                <li>Terms & Conditions</li>
+                                <li>FAQ'S</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="followuscontainer">
+                        <div class="followustextwithicons">
+                            <p>Follow Us</p>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="followuscopyrights">
+                            <p>Copyright All Right Reserved By SORAN 2018</p>
+                        </div>
+                    </div>
+                    <img class="footerpath" src="img/footerpath.png" alt="footerpath">
+                </div>
+            </footer>
+
+            <!-- Importing Frameworks -->
+            <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script> -->
     </body>
 </html>
